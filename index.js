@@ -14,6 +14,9 @@ const port = process.env.PORT || 8000;
 app.use(express.json());
 
 // create default router it is baseurl
+app.get("/", (req, res) => {
+  res.send("<h1>Welcome In Price Tracker </h1>");
+});
 app.use("/Bitcoin", router);
 
 app.listen(port, (error) => {
