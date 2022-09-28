@@ -5,8 +5,7 @@ const db = require("./config/connection");
 const Price = require("./models/price");
 const router = require("./routes/index");
 const passport = require("passport");
-
-const env = require("dotenv").config();
+require("dotenv").config();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
