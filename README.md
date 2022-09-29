@@ -25,8 +25,7 @@
 
      •post request > url : localhost:8000/Bitcoin/users/create
 
-
 2• login a user and enter value [email,password]
 •get request > localhost:8000/Bitcoin/users/sign-in
 
-Hosted Link : https://price-tracker-bitcoin.herokuapp.com/
+Hosted Link : https://price-tracker-bitcoin.onrender.com/
